@@ -26,7 +26,11 @@ TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
+
+LOCALE_PATHS = (
+    rel(PROJECT_PATH, 'locale'),
+)
 
 SITE_ID = 1
 
@@ -97,7 +101,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.core.context_processors.tz',
     'django.contrib.messages.context_processors.messages',
-    'sekizai.context_processors.sekizai'
+    'sekizai.context_processors.sekizai',
 )
 
 
