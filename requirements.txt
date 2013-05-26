@@ -10,5 +10,5 @@ django-sekizai==0.7
 psycopg2==2.5
 sorl-thumbnail==11.12
 #wiki==0.0.19
--e git+https://github.com/crazyzubr/django-wiki.git@3f08aeca5562ca9ad81dbea7a1eee7a9eead7271#egg=wiki
+-e git+https://github.com/crazyzubr/django-wiki.git@dca36181f0f9e35a3324001829e381e1798402f4#egg=wiki
 wsgiref==0.1.2
