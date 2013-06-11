@@ -9,7 +9,7 @@ def handle(to, sender, body):
     subject = body[body.find(" ", subject_pos)+1:body.find("\n", subject_pos)]
 
     log_file = open(r'smtp.log', 'w')
-    log_file.write("%s\n%s\n%s\n%s\n" % (to, sender, subject, text))
+    log_file.write("%s\n%s\n%s\n%s\n" % (to[0], sender, subject, text))
 
 # Bind directly.
 inbox.serve(address='0.0.0.0', port=4467)
