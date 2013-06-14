@@ -137,6 +137,9 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 
     'django.contrib.humanize',
+
+    'support',
+
     'south',
     'django_notify',
     'mptt',
