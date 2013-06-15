@@ -138,7 +138,7 @@ INSTALLED_APPS = (
 
     'django.contrib.humanize',
 
-    'support',
+ #   'support',
 
     'south',
     'django_notify',
