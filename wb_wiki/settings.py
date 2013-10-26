@@ -145,6 +145,7 @@ INSTALLED_APPS = (
     'mptt',
     'sekizai',
     'sorl.thumbnail',
+    'gunicorn',
     'wiki',
     'wiki.plugins.attachments',
     'wiki.plugins.notifications',
