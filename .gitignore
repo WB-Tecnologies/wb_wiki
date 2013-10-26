@@ -3,6 +3,7 @@ venv/
 build/
 *.pyc
 static/storage/
+smtp.log
 gunicorn.conf.py
 var/
 Makefile
