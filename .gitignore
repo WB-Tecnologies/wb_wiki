@@ -3,3 +3,6 @@ venv/
 build/
 *.pyc
 static/storage/
+gunicorn.conf.py
+var/
+Makefile
